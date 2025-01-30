@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse4Pets</title>
+
+    <!-- tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font cdn -->
+    <script src="https://kit.fontawesome.com/c023d4a080.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-- navbar section -->
+        <section>
+            <nav class="bg-[#FFF9F4]">
+                <div id="navbar" class="container px-7 py-3 md:py-7 lg:px-16 mx-auto sm: flex justify-between items-center">
+                    <!-- logo and name -->
+                    <div id="l&h" class="flex items-center gap-3">
+                        <img src="c1-assets/logo-header.png" alt="hearder logo">
+                        <h2 class="hidden md:block text-2xl font-normal">Browse <span class="text-[#FFDC26]">4</span>Pets</h2>
+                    </div>
+
+                    <!-- menu lisst -->
+                     <div>
+                        <ul class="md:flex justify-between items-center gap-8 hidden text-xl font-normal">
+                            <li class="a">Find a pet</li>
+                            <li class="a">Breeds</li>
+                            <li class="a">Contact us</li>
+                        </ul>
+                     </div>
+                     <!-- nav icons -->
+                      <div class="md:flex items-center gap-4 hidden">
+                        <i class="fa-regular fa-bell"></i>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="flex items-center gap-3">
+                            <button class="text-xl font-normal border py-3 px-7 border-[#FFDC26] rounded-lg">Login</button>
+                            <button class="text-xl font-normal bg-[#FFDC26] py-3 px-7 rounded-lg">Register</button>
+                           </div>
+                      </div>
+
+                      <!--Menu bar -->
+                      <div class="md:hidden">
+                        <i class="fa-solid fa-bars"></i>
+                      </div>
+                </div>
+            </nav>
+        </section>
+        <!-- banner section -->
+         <section class="container px-7 py-3 md:py-7 lg:px-16 mx-auto mt-20">
+            <div>
+                <div>
+                    <h1 class="text-3xl font-normal md:hidden">Pamper Your Pet, Because They Deserve the Bes</h1>
+                    <p class="text-base font-normal md:hidden">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                </div>
+                <div class="absolute">
+                    <img class="md:hidden w-full pr-5" src="c1-assets/cat-big.png" alt="">
+                    <button class="text-xl font-normal bg-[#FFDC26] py-3 px-7 rounded-lg md:hidden relative -top-52">Find a pet</button>
+                </div>
+            </div>
+                <div class="md:hero min-h-screen bg-no-repeat md:w-full hidden md:block bg-contain"       style="background-image: url(c1-assets/cat-big.png);">
+                    <div class="hero-overlay bg-opacity-60">
+
+                    </div>
+                    <div class="pt-10">
+                        <div class="max-w-3xl">
+                            <h1 class="mb-5 text-[#111111] text-5xl font-bold">Pamper Your Pet,<br>Because They Deserve<br>the Bes</h1>
+                            <p class="mb-5 text-xl text-[#111111]">
+                            Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
+                            </p>
+                            <button class="text-xl font-normal bg-[#FFDC26] py-3 px-7 rounded-lg text-[#111111]">Find a pet</button>
+                        </div>
+                    </div>
+                </div>
+         </section>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
