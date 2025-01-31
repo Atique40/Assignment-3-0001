@@ -20,7 +20,7 @@
         <!-- navbar section -->
         <section>
             <nav class="bg-[#FFF9F4]">
-                <div id="navbar" class="container px-7 py-3 md:py-7 lg:px-16 mx-auto sm: flex justify-between items-center">
+                <div id="navbar" class="container px-7 py-3 md:py-7 lg:px-16 mx-auto flex justify-between items-center">
                     <!-- logo and name -->
                     <div id="l&h" class="flex items-center gap-3">
                         <img src="c1-assets/logo-header.png" alt="hearder logo">
@@ -52,37 +52,95 @@
                 </div>
             </nav>
         </section>
+
         <!-- banner section -->
-         <section class="container px-7 py-3 md:py-7 lg:px-16 mx-auto mt-20">
-            <div>
-                <div>
-                    <h1 class="text-3xl font-normal md:hidden">Pamper Your Pet, Because They Deserve the Bes</h1>
-                    <p class="text-base font-normal md:hidden">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+         <section>
+            <div class="container px-7 py-3 md:py-7 lg:px-16 mx-auto md:flex md:flex-col relative">
+                <div class="md:absolute mt-6">
+                    <h1 class="text-3xl font-normal md:text-6xl text-[#111111] mb-5 z-10">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
+                    <p class="text-base md:text-xl font-normal text-[#111111] mb-4">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+                    <button class="text-xl font-normal bg-[#FFDC26] py-3 px-7 rounded-lg">Find a pet</button>
                 </div>
-                <div class="absolute">
-                    <img class="md:hidden w-full pr-5" src="c1-assets/cat-big.png" alt="">
-                    <button class="text-xl font-normal bg-[#FFDC26] py-3 px-7 rounded-lg md:hidden relative -top-52">Find a pet</button>
+                </div>
+                <div>
+                    <img class="w-full -mt-24 md:-mt-8 px-6 md:px-20" src="c1-assets/cat-big.png" alt="">
                 </div>
             </div>
-                <div class="md:hero min-h-screen bg-no-repeat md:w-full hidden md:block bg-contain"       style="background-image: url(c1-assets/cat-big.png);">
-                    <div class="hero-overlay bg-opacity-60">
-
-                    </div>
-                    <div class="pt-10">
-                        <div class="max-w-3xl">
-                            <h1 class="mb-5 text-[#111111] text-5xl font-bold">Pamper Your Pet,<br>Because They Deserve<br>the Bes</h1>
-                            <p class="mb-5 text-xl text-[#111111]">
-                            Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
-                            </p>
-                            <button class="text-xl font-normal bg-[#FFDC26] py-3 px-7 rounded-lg text-[#111111]">Find a pet</button>
-                        </div>
-                    </div>
-                </div>
          </section>
     </header>
 
     <main>
-
+        <section class="container px-7 py-3 md:py-7 lg:px-16 mx-auto">
+            <h2 class="mt-14 mb-8 text-2xl md:text-4xl font-normal">Browse By Categories</h2>
+            <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
+                <div class="bg-[#F9DF8A] flex flex-col justify-center items-center rounded-xl">
+                    <div class="avatar pt-9 md:pt-12">
+                        <div class="w-24 rounded-full bg-white mb-4">
+                          <img class="p-5 mt-1" src="c1-assets/dog-cartoon.png" />
+                        </div>
+                      </div>
+                    <div class="pb-9 md:pb-12">
+                        <h2 class="text-center text-xl font-normal mb-3">Dog</h2>
+                        <p class="text-center text-sm font-normal">3 items</p>
+                    </div>
+                </div>
+                <div class="bg-[#F9DF8A] flex flex-col justify-center items-center rounded-xl">
+                    <div class="avatar pt-9">
+                        <div class="w-24 rounded-full bg-white mb-4">
+                          <img class="p-5 mt-1" src="c1-assets/fish-cartoon.png" />
+                        </div>
+                      </div>
+                    <div class="pb-9">
+                        <h2 class="text-center text-xl font-normal mb-3">Fish</h2>
+                        <p class="text-center text-sm font-normal">3 items</p>
+                    </div>
+                </div>
+                <div class="bg-[#F9DF8A] flex flex-col justify-center items-center rounded-xl">
+                    <div class="avatar pt-9">
+                        <div class="w-24 rounded-full bg-white mb-4">
+                          <img class="p-5 mt-1" src="c1-assets/cat-cartoon.png" />
+                        </div>
+                      </div>
+                    <div class="pb-9">
+                        <h2 class="text-center text-xl font-normal mb-3">Cat</h2>
+                        <p class="text-center text-sm font-normal">3 items</p>
+                    </div>
+                </div>
+                <div class="bg-[#F9DF8A] flex flex-col justify-center items-center rounded-xl">
+                    <div class="avatar pt-9">
+                        <div class="w-24 rounded-full bg-white mb-4">
+                          <img class="p-5 mt-1" src="c1-assets/bird-cartoon.png" />
+                        </div>
+                      </div>
+                    <div class="pb-9">
+                        <h2 class="text-center text-xl font-normal mb-3">Birds</h2>
+                        <p class="text-center text-sm font-normal">3 items</p>
+                    </div>
+                </div>
+                <div class="bg-[#F9DF8A] flex flex-col justify-center items-center rounded-xl">
+                    <div class="avatar pt-9">
+                        <div class="w-24 rounded-full bg-white mb-4">
+                          <img class="p-5 mt-1" src="c1-assets/mouse-cartoon.png" />
+                        </div>
+                      </div>
+                    <div class="pb-9">
+                        <h2 class="text-center text-xl font-normal mb-3">Small pet</h2>
+                        <p class="text-center text-sm font-normal">3 items</p>
+                    </div>
+                </div>
+                <div class="bg-[#F9DF8A] flex flex-col justify-center items-center rounded-xl">
+                    <div class="avatar pt-9">
+                        <div class="w-24 rounded-full bg-white mb-4">
+                          <img class="p-5 mt-1" src="c1-assets/rabbit-cartoon.png" />
+                        </div>
+                      </div>
+                    <div class="pb-9">
+                        <h2 class="text-center text-xl font-normal mb-3">Rabit</h2>
+                        <p class="text-center text-sm font-normal">3 items</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
